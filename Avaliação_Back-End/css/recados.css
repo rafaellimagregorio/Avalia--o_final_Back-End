@@ -1,0 +1,78 @@
+body{
+    display: block;
+    background: url(../img/94063.jpg) no-repeat center fixed;
+}
+
+h1{
+  font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #E5C7C6;
+}
+#descriçao{
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+}
+#detalhes{
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+}
+.cabeçalho{
+    border-bottom: 1px solid black;
+    padding: 10px 2px 10px 2px;
+    margin-bottom: 20px;
+}
+#buttonSair{
+  height: 30px;
+  right: 50px;
+  top: 35px;
+  margin-right: 18px;
+  border-radius: 7px;
+  background-color: red;
+  color: #ffff;
+  padding: 3px 7px 3px 7px;
+}
+#buttonSair:hover{
+  cursor: pointer;
+  background-color: hsla(0, 94%, 70%, 0.994);
+  color: rgb(5, 5, 5);
+}
+table {
+  width: 100%;
+  text-align: center;
+  
+}
+table td {
+  margin-top: 100px;
+}
+.tr-style {
+  background-color: hsl(2, 37%, 84%, 0.5);
+}
+#buttonSubmit{
+  font-size: 15px;
+  height: 30px;
+  background-color: greenyellow;
+  color: white;
+  border: none;
+}
+#buttonSubmit:hover{
+  cursor: pointer;
+}
+#deleteButton{
+  width: 58px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+#deleteButton:hover{
+  cursor: pointer;
+}
+#editButton{
+  width: 58px;
+  color: white;
+  border: none;
+}
+#editButton:hover{
+  cursor: pointer;
+}
